@@ -110,7 +110,7 @@ $.getJSON("https://raw.githubusercontent.com/MontserratJB/Proyecto/master/capas/
 
   // Se añaden las capas al mapa y al control de capas
   capa_constru_calor.addTo(mapa);
-  control_capas.addOverlay(capa_constru_calor, 'Mapa de calor CE');
+  control_capas.addOverlay(capa_constru_calor, 'Construcciones');
   
 });
    
